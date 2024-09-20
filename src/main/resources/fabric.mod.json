@@ -8,7 +8,9 @@
 		"Lolens"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/project/no-death-scatter"
+		"homepage": "https://modrinth.com/project/no-death-scatter",
+		"issues": "https://github.com/Lolens/NoDeathScatter/issues",
+		"sources": "https://github.com/Lolens/NoDeathScatter"
 	},
 	"license": "MIT",
 	"icon": "assets/nodeathscatter/icon.png",
