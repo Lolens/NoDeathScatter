@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "nodeathscatter",
+	"version": "${version}",
+	"name": "No Death Scatter",
+	"description": "Control your drops!",
+	"authors": [
+		"Lolens"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/no-death-scatter"
+	},
+	"license": "MIT",
+	"icon": "assets/nodeathscatter/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"lolens.nodeathscatter.Nodeathscatter"
+		]
+	},
+	"mixins": [
+		"nodeathscatter.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"owo-lib": ">=0.11.2+1.20"
+	}
+}
