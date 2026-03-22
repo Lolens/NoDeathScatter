@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/Lolens/NoDeathScatter/issues"
+license = "MIT"
+
+[[mods]]
+modId = "nodeathscatter"
+version = "${version}"
+displayName = "No Death Scatter"
+authors = "Lolens"
+description = '''
+Control your drops!
+'''
+#logoFile = ""
+
+[[dependencies.nodeathscatter]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.nodeathscatter]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"

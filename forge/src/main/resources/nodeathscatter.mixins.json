@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "io.github.lolens.nodeathscatter.forge.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "mixins": [
+    "PlayerEntityMixin"
+  ],
+  "client": [
+  ],
+  "server": []
+}
