@@ -11,7 +11,7 @@ authors = "Lolens"
 description = '''
 Control your drops!
 '''
-#logoFile = ""
+logoFile = "icon.png"
 
 [[dependencies.nodeathscatter]]
 modId = "forge"

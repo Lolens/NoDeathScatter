@@ -5,8 +5,10 @@ plugins {
 loom {
     forge {
         mixinConfig "nodeathscatter-common.mixins.json"
-        mixinConfig "nodeathscatter.mixins.json"
+        mixinConfig "nodeathscatter-forge.mixins.json"
+
     }
+
 }
 
 architectury {

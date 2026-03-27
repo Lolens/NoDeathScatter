@@ -12,26 +12,20 @@
     "issues": "https://github.com/Lolens/NoDeathScatter/issues"
   },
   "license": "MIT",
-  "icon": "assets/nodeathscatter/icon.png",
-  "environment": "*",
+  "icon": "icon.png",
+  "environment": "server",
   "entrypoints": {
     "main": [
       "io.github.lolens.nodeathscatter.fabric.NodeathscatterFabric"
-    ],
-    "client": [
-      "io.github.lolens.nodeathscatter.fabric.client.NodeathscatterFabricClient"
-    ],
-    "modmenu": [
-      "io.github.lolens.nodeathscatter.fabric.integration.ModMenuIntegration"
     ]
   },
   "mixins": [
     "nodeathscatter-common.mixins.json",
-    "nodeathscatter.mixins.json"
+    "nodeathscatter-fabric.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.18.4",
-    "minecraft": ">=1.20",
+    "minecraft": ">=1.20.1",
     "java": ">=17"
   }
 }
