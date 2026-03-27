@@ -24,12 +24,12 @@ public class PlayerEntityMixin {
             double originalSpeedY = itemEntity.getVelocity().y;
             double originalSpeedZ = itemEntity.getVelocity().z;
 
-            double slowdownFactor = (double) itemEntity.getWorld().getGameRules().getInt(DeathScatterGameRule.DEATH_SCATTER_MULTIPLIER) / 100;
+            double speedMultiplier = (double) itemEntity.getWorld().getGameRules().getInt(DeathScatterGameRule.DEATH_SCATTER_SPEED_PERCENT) / 100;
 
             itemEntity.setVelocity(
-                    originalSpeedX * slowdownFactor,
-                    originalSpeedY * slowdownFactor,
-                    originalSpeedZ * slowdownFactor
+                    originalSpeedX * speedMultiplier,
+                    originalSpeedY * speedMultiplier,
+                    originalSpeedZ * speedMultiplier
             );
         }
     }
